@@ -180,6 +180,7 @@
 
   #table(
     columns: 4,
+    align: right,
     ..array.range(12).map(i => [#i])
   )
   ```
@@ -196,8 +197,8 @@
 
   $ a^2 + b^2 = c^2 $ <pythagoras>
 
-  In @pythagoras sind $a$ und $b$ die Katheten
-  und $c$ ist die Hypothenuse.
+  In @pythagoras sind $a$ und $b$ die
+  Katheten und $c$ ist die Hypothenuse.
   ```
 )
 

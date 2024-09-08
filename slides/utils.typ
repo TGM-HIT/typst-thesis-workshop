@@ -35,7 +35,7 @@
   }
 }
 
-#let example(code, code-width: 1fr, preview-width: 1fr) = {
+#let example(code, code-width: 1.2fr, preview-width: 1fr) = {
   grid(
     columns: (code-width, preview-width),
     column-gutter: 1em,
