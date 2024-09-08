@@ -1,0 +1,5 @@
+slides:
+	typst c --input lang=de "typst-workshop.typ" "typst-workshop.pdf"
+
+handouts:
+	typst c --input lang=de --input handout=true "typst-workshop.typ" "typst-workshop-handout.pdf"
