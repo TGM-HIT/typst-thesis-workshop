@@ -51,7 +51,24 @@
     init: (self: none, body) => {
       set text(self.colors.neutral-dark, font: "Liberation Sans", lang: config.lang)
       // set raw(theme: "assets/Visual Studio.tmTheme")
+      show raw: set text(0.9em)
       show: codly-init.with()
+      show quote.where(block: true): set text(0.9em)
+      show quote.where(block: true): set block(spacing: 1em)
+      show quote.where(block: true): it => {
+        show: block.with(
+          inset: (left: 0.6em, y: 0.4em),
+          stroke: (left: 3pt + gray),
+        )
+        [
+          #it.body
+
+          #set align(right)
+          #set text(0.8em)
+          -- #it.attribution
+        ]
+      }
+      // show quote.attribution: set text(0.8em)
 
       body
     },

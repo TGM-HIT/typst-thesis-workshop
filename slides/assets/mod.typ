@@ -1,0 +1,1 @@
+#let thesis-thumbnail = image.with("thumbnail.png")
