@@ -1,6 +1,8 @@
 #import "@preview/touying:0.5.2": *
 #import "theme.typ": *
 
+#import "@preview/tiaoma:0.2.0"
+
 #import "utils.typ": *
 #import "assets/mod.typ" as assets
 
@@ -10,7 +12,22 @@
 #show: metropolis-theme.with(
   aspect-ratio: "16-9",
   config-info(
-    title: [Diplomarbeit schreiben mit Typst],
+    title: [
+      Diplomarbeit schreiben mit Typst
+      #h(1fr)
+      #place(right, dy: 1.5cm, {
+        let url = "https://github.com/TGM-HIT/typst-thesis-workshop/blob/main/slides/typst-workshop-handout.pdf"
+        link(url, {
+          tiaoma.qrcode(url, options: (
+            scale: 1.8,
+          ))
+          v(-0.8cm)
+          set text(0.4em)
+          set align(left)
+          block(width: 4.4cm)[#url]
+        })
+      })
+    ],
     // subtitle: [],
     author: [Clemens Koza],
     date: [2024],
