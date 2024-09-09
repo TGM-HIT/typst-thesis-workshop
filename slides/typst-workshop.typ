@@ -268,9 +268,10 @@
 - Quellen hinzufügen, verwenden
 - Abbildungen/Gleichungen/Codebeispiele einfügen, verwenden
 - Daten einlesen
-- Wichtige Pakete:
+- Wichtige/nützliche Pakete: \
   #link("https://typst.app/universe/package/cetz")[CeTZ],
   #link("https://typst.app/universe/package/fletcher")[Fletcher],
+  #link("https://typst.app/universe/package/timeliney")[Timeliney],
   #link("https://typst.app/universe/package/subpar")[Subpar],
   #link("https://typst.app/universe/package/physica")[Physica],
   #link("https://typst.app/universe/package/touying")[(Touying)]
