@@ -28,7 +28,6 @@
     show: pro-list()
     pros
   }
-  v(0.2em)
   {
     show: con-list()
     cons

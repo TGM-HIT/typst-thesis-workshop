@@ -77,6 +77,8 @@
 
       - keine "Erweiterbarkeit"
 
+      - kein automatisches Syntax-Highlighting
+
       - wegen WYSIWYG: "unsichtbare" Formatierungen
     ]
   ],
@@ -93,7 +95,7 @@
     ][
       - langsam
 
-      - Sprache schwer zu erlernen
+      - schwer zu erlernende Sprache (Makro-basiert)
 
       - schwer verständliche Fehlermeldungen
     ]
@@ -111,11 +113,13 @@
 
       - Kollaboration (Typst~App, git-Versionierung)
     ][
-      - weniger Online-Lernunterlagen
+      - weniger Lernunterlagen
 
       // - kleinere Community
 
       - manche App-Features nur mit Typst Pro
+
+      - keine deutsche Rechtschreibprüfung
     ]
   ],
 )
@@ -239,6 +243,23 @@
   ```
 ]
 
+== Tooling
+
+=== Typst App
+
+- https://typst.app
+  - ähnliche Bedienung wie z.B. Overleaf (aber schneller)
+
+=== Lokale Installation
+
+- Compiler: https://github.com/typst/typst
+  - `typst init` -- Projekt initialisieren
+  - `typst compile` -- pdf/svg/png exportieren
+  - `typst watch` -- bei Änderungen automatisch kompilieren
+- Editor-Plugin: Tinymist -- https://myriad-dreamin.github.io/tinymist/
+  - für VS Code, NeoVim, ...
+  - Syntax Highlighting, Live Preview, Export, ...
+
 == TGM-HIT Vorlage
 
 #grid(
@@ -274,6 +295,7 @@
   #link("https://typst.app/universe/package/timeliney")[Timeliney],
   #link("https://typst.app/universe/package/subpar")[Subpar],
   #link("https://typst.app/universe/package/physica")[Physica],
+  #link("https://typst.app/universe/package/mitex")[MiTeX],
   #link("https://typst.app/universe/package/touying")[(Touying)]
 - weitere Unterlagen:
   - Dokumentation: https://typst.app/docs/
