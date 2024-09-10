@@ -299,4 +299,5 @@
   #link("https://typst.app/universe/package/touying")[(Touying)]
 - weitere Unterlagen:
   - Dokumentation: https://typst.app/docs/
+  - Bibliotheken: https://typst.app/universe/
   - Discord: https://discord.gg/2uDybryKPe
