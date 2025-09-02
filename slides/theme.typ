@@ -40,14 +40,15 @@
   config-common(
     handout: config.handout,
   ),
-  // config-colors(
-  //   primary: rgb("#cc8833"),
-  //   primary-light: rgb("#d6c6b7"),
-  //   secondary: rgb("#bbbbbb"),
-  //   neutral-lightest: rgb("#191919"),
-  //   neutral-dark: rgb("#bbbbbb"),
-  //   neutral-darkest: rgb("#dddddd"),
-  // ),
+  config-colors(
+    primary: rgb("23373b"),
+    // primary: rgb("#cc8833"),
+    // primary-light: rgb("#d6c6b7"),
+    // secondary: rgb("#bbbbbb"),
+    // neutral-lightest: rgb("#191919"),
+    // neutral-dark: rgb("#bbbbbb"),
+    // neutral-darkest: rgb("#dddddd"),
+  ),
   config-methods(
     init: (self: none, body) => {
       set text(self.colors.neutral-dark, font: "Liberation Sans", lang: config.lang)
