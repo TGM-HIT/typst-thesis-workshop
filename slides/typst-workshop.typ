@@ -147,7 +147,7 @@
 
 #example(
   ```typ
-  #for i in array.range(1, 5) [
+  #for i in range(1, 5) [
     - Nummer #i
       #if calc.odd(i) [(wichtig!)]
   ]
@@ -157,7 +157,7 @@
   #table(
     columns: 3,
     [Col 1], [Col 2], [Col 3],
-    ..array.range(9).map(i => {
+    ..range(9).map(i => {
       let num = i + 1
       [\##num]
     })
@@ -184,7 +184,7 @@
   #table(
     columns: 4,
     align: right,
-    ..array.range(12).map(i => [#i])
+    ..range(12).map(i => [#i])
   )
   ```
 )
@@ -236,7 +236,7 @@
 #[
   #set text(0.8em)
   ```typ
-  #let xmultiply(a, b) = array.range(a, b+1).product()
+  #let xmultiply(a, b) = range(a, b+1).product()
   #xmultiply(4, 9)
   ```
 ]
@@ -264,7 +264,7 @@
   columns: (1fr, auto),
   column-gutter: 1em,
   [
-    #v(2em)
+    #v(1em)
 
     - der existierenden LaTeX-Vorlage nachempfunden
     - kann mit wenigen Klicks/Befehlen verwendet werden
@@ -274,9 +274,10 @@
     - https://typst.app/universe/package/tgm-hit-thesis
     - https://github.com/TGM-HIT/typst-diploma-thesis
 
-    #v(3em)
+    #v(2em)
 
-    *jetzt: Demo!*
+    *jetzt: Demo!*\
+    Ausprobieren: https://typst.app/play
   ],
   assets.thesis-thumbnail(height: 95%)
 )
