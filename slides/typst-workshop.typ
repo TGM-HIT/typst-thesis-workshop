@@ -29,7 +29,7 @@
     ],
     // subtitle: [],
     author: [Clemens Koza],
-    date: [2024],
+    date: [2025],
     institution: [TGM, HIT],
     // logo: emoji.city,
   ),
