@@ -202,6 +202,11 @@
 
   In @pythagoras sind $a$ und $b$ die
   Katheten und $c$ ist die Hypothenuse.
+
+  @gauss ist etwas komplexer:
+
+  $ integral_(-infinity)^infinity
+    e^(-x^2) dif x = sqrt(pi) $ <gauss>
   ```
 )
 
