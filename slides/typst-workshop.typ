@@ -237,7 +237,6 @@
   #set text(0.8em)
   ```typ
   #let xmultiply(a, b) = array.range(a, b+1).product()
-
   #xmultiply(4, 9)
   ```
 ]

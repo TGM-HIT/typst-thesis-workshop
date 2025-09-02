@@ -45,6 +45,7 @@
     },
     {
       set align(top)
+      set heading(offset: 2)
       show: block.with(inset: (y: 0.3em))
 
       let mode = if code.lang == "typc" { "code" } else { "markup" }
