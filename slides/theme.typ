@@ -1,7 +1,8 @@
-#import "@preview/touying:0.5.2": *
+#import "libs.typ": touying, codly
+#import touying: *
 #import themes.metropolis: *
 
-#import "@preview/codly:1.0.0": *
+#import codly: *
 
 #let config = (
   lang: sys.inputs.at("lang", default: "de"),

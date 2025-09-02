@@ -1,4 +1,5 @@
-#import "@preview/codly:1.0.0": *
+#import "libs.typ": codly
+#import codly: *
 
 #let multi-lang(..translations) = {
   assert(translations.pos().len() == 0, message: "only named arguments allowed")

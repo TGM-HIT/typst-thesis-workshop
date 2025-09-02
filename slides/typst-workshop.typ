@@ -1,7 +1,6 @@
-#import "@preview/touying:0.5.2": *
+#import "libs.typ": touying, tiaoma
+#import touying: *
 #import "theme.typ": *
-
-#import "@preview/tiaoma:0.2.0"
 
 #import "utils.typ": *
 #import "assets/mod.typ" as assets
