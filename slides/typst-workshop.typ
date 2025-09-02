@@ -16,15 +16,15 @@
       Diplomarbeit schreiben mit Typst
       #h(1fr)
       #place(right, dy: 1.5cm, {
-        let url = "https://github.com/TGM-HIT/typst-thesis-workshop/blob/main/slides/typst-workshop-handout.pdf"
+        let url = "https://github.com/TGM-HIT/typst-thesis-workshop/blob/main/slides/typst-workshop-handout.pdf?raw=1"
         link(url, {
           tiaoma.qrcode(url, options: (
-            scale: 1.8,
+            scale: 2.3,
           ))
           v(-0.8cm)
           set text(0.4em)
           set align(left)
-          block(width: 4.4cm)[#url]
+          block(width: 4.7cm)[#url]
         })
       })
     ],
