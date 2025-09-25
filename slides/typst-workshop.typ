@@ -205,8 +205,8 @@
 
   @gauss ist etwas komplexer:
 
-  $ integral_(-infinity)^infinity
-    e^(-x^2) dif x = sqrt(pi) $ <gauss>
+  $ integral_(-oo)^oo e^(-x^2) dif x
+    = sqrt(pi) $ <gauss>
   ```
 )
 
